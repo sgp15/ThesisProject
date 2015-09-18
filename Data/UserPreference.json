@@ -1,0 +1,19 @@
+{
+    "FirstName" : "Swapna",
+    "LastName" : "Phadke",
+    "Address" : { 
+      "City" : "Fargo",
+      "State" : "ND"
+    },
+
+    "Gender" : "Female",
+    "School" : "PBHS",
+    "College" : "NDSU",
+    "WorkPlace" : "Sanford Health",
+    "JobTitle" : "Software Engineer",
+    "Married" : "Yes",
+    "Kids" : "Yes",
+    "SocialMedia" : ["Facebook","Twitter","Instagram"],
+    "ShoppingDomain" : ["Amazon.com","Hotels.com","Delta.com","United.com","Macys.com","Gymboree.com",
+                    "Gap.com","BarnesandNoble.com","Loft.com","Apple.com","Microsoft.com","PotteryBarnKids"]
+}

@@ -1,0 +1,31 @@
+﻿@model ThesisProject.Models.UserPreference
+
+@{
+    ViewBag.Title = "UserHome";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Home</title>
+</head>
+<body>
+    <h2>Email Classifier</h2>
+
+
+    <h3>Welcome, @Model.FirstName @Model.LastName</h3>
+    <p>User Preferences</p>
+
+    <p>Shopping Domain</p>
+
+
+    <ul id=ShoppingDomain>
+
+        @foreach (var p in Model.ShoppingDomain)
+        {
+            <li>@p</li>
+        }
+
+    </ul>
+
+</body>
+</html>
